@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 197.4 85.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        opacity: .97;
+        stroke: url(#linear-gradient);
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: CormorantGaramond-BoldItalic, 'Cormorant Garamond';
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="42.85" x2="102.5" y2="42.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed1c24"/>
+      <stop offset="1" stop-color="#2e3192"/>
+    </linearGradient>
+  </defs>
+  <text class="cls-2" transform="translate(9.48 57.59)"><tspan x="0" y="0">elCollins</tspan></text>
+  <polyline class="cls-1" points="98.73 22.38 98.73 8.93 2 2.15 2 83.52 99.96 74.96 100.5 61.7"/>
+</svg>

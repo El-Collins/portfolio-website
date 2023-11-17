@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* // scroll bar */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8e8e8e #ffffff;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #8e8e8e;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #878787;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #8e8e8e;
+}
+
+/* Body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.unhovered {
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+}
+
+.hovered {
+  transform: translateY(-83%);
+  transition: transform 10s ease-in-out 0s;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #dddddd21;
+  overflow: hidden;
+  z-index: 0;
+  /* color: rgb(255 9 255); */
+
+  /* transform: scale(1.1) */
+  /* box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51); */
+}
+
+.btnm:hover {
+  /* background-color: #5f5867; */
+  background-color: #dddddd21;
+}
+
+.gradient,
+.active {
+  background-color: #dddddd21;
+  /* filter: blur(1px); */
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.not-valid {
+  color: #dc3232;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+}
+
+.input:focus::placeholder,
+textarea:focus::placeholder {
+  transition: all 0.5s linear 0s;
+  opacity: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+
+.btn::before {
+  content: "";
+  border-radius: 999px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #dddddd21;
+  z-index: 0;
+  /* transition: width 300ms; */
+  /* transform: translateX(100%); */
+    transition: .3s ease-out all;
+}
+
+.btn:hover::before {
+  width: 100%;
+  /* border-radius: 30px; */
+
+}
+
+.hero-img {
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-image: url('../src/assets/profile-pic.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 3px solid #2d2e32; */
+  border: 5px solid rgb(184 9 195 / var(--tw-text-opacity));
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 25rem;
+  height: 30rem;
+
+}
+
+@media (max-width: 500px) {
+  .hero-img {
+      height:28rem;
+      width: 28rem
+  }
+}
+
+@-webkit-keyframes morph {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+  }
+
+  to {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+}
+
+@keyframes morph {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+  }
+
+  to {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+}
+
+
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .btn {
+    @apply rounded-full font-primary text-white font-medium;
+  }
+
+
+  .section {
+    @apply py-8 lg:py-24 flex items-center;
+  }
+  .input {
+    @apply rounded-[30px] px-[26px] py-[11px] bg-[#dddddd21] w-full font-primary transition-all m-2 text-white text-[15px]
+  }
+}
+
+/* rounded-[30px] px-[26px] py-[11px] bg-[#252525] w-full font-primary transition-all m-3 text-white text-[15px] */

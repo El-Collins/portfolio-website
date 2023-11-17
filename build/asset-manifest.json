@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f19d26a.css",
+    "main.js": "/static/js/main.58ff3835.js",
+    "static/media/about.png": "/static/media/about.fcf9595d094e3dc9b2b4.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.0ae8e478596aca522392.jpg",
+    "static/media/movieworld.jpg": "/static/media/movieworld.42d642bb1b55f5b580dc.jpg",
+    "static/media/site-bg.jpg": "/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/homzy.webp": "/static/media/homzy.21293f138ede8698466e.webp",
+    "static/media/caesarcipher.png": "/static/media/caesarcipher.f0ce7e7a7901b62d2f0a.png",
+    "static/media/hangman.png": "/static/media/hangman.9fc96673a28b49764c87.png",
+    "index.html": "/index.html",
+    "main.1f19d26a.css.map": "/static/css/main.1f19d26a.css.map",
+    "main.58ff3835.js.map": "/static/js/main.58ff3835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f19d26a.css",
+    "static/js/main.58ff3835.js"
+  ]
+}
