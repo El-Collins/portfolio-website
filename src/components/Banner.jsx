@@ -41,7 +41,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-accent leading-[1.2] font-extrabold uppercase text-[35px] lg:text-[45px] block "
             >
-              collins charles
+              collins Kelechi
             </motion.h1>
 
             <motion.div
