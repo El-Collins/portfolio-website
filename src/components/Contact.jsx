@@ -1,6 +1,6 @@
 import { HiMail } from "react-icons/hi";
 import { FaPhoneSquare, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -74,6 +74,13 @@ const Contact = () => {
                 rel="noopener noreferrer"
               >
                 <FaXTwitter />
+              </a>
+               <a
+                href="https://www.instagram.com/elcollinscharles/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
               </a>
             </div>
           </div>
