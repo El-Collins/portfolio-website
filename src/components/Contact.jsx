@@ -1,5 +1,6 @@
 import { HiMail } from "react-icons/hi";
 import { FaPhoneSquare, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -61,11 +62,18 @@ const Contact = () => {
                 <FaGithub />
               </a>
               <a
-                href="http://www.linkedin.com/in/collins-charles-52078a138/"
+                href="https://www.linkedin.com/in/collins-kelechi-52078a138/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+              <a
+                href="https://twitter.com/el_collins1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter />
               </a>
             </div>
           </div>
