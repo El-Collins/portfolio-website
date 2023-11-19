@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 import { FaArrowRight } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram, FaFacebook  } from "react-icons/fa6";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -108,6 +109,27 @@ const Banner = () => {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+              <a
+                href="https://twitter.com/el_collins1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter />
+              </a>
+               <a
+                href="https://www.instagram.com/elcollinscharles/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://m.facebook.com/elcollinscharles"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
               </a>
             </div>
           </div>
