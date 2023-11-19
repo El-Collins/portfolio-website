@@ -103,7 +103,7 @@ const Banner = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/collins-charles-52078a138/"
+                href="https://www.linkedin.com/in/collins-kelechi-52078a138/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
