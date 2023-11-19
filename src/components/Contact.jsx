@@ -70,9 +70,9 @@ const Contact = () => {
             </div>
           </div>
           {/* form */}
-          <div className="max-sm:mt-20">
+{/*           <div className="max-sm:mt-20">
           <ContactForm />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
