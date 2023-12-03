@@ -28,6 +28,7 @@ const Work = () => {
             description={project.description}
             icon={ProjectCard.icon}
             code={project.code}
+            code={project.view}
           />
         ))}
       </div>
