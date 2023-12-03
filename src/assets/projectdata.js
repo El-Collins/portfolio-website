@@ -5,7 +5,7 @@ const projectData = [
     description:
       "A Real estate website where users an view the latest properties and make enquiries if need be and also know more about the real estate company.",
     code: "https://github.com/el-collins/Homyz-real-estate-app",
-    view: "",
+    view: "https://homyz-real-estate-six.vercel.app/",
   },
   {
     image: require("../assets/movieworld.jpg"),
