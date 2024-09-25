@@ -49,7 +49,7 @@ const Contact = () => {
               <div>
                 <span className="block">CALL ME</span>
                 <a className=" font-normal text-[16px] lg:text-[18px]" href="tel:+2348108719984">
-                  +234 810 871 9984
+                  +234 705 467 5026
                 </a>
               </div>
             </div>
